@@ -16,4 +16,7 @@ else
   echo "export REFRESH_TOKEN=\"$REFRESH_TOKEN\"" >> "./token.sh"
 fi
 
+echo "username: $USERNAME"
+echo "password: $PASSWORD"
+
 ./start.sh
